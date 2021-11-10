@@ -1,0 +1,17 @@
+2021-11-10 20:58:57,116 - ERROR[line:37] - ERROR: xxx
+2021-11-10 21:05:19,712 - ERROR[line:37] - ERROR: del file failed. reason:'int' object is not iterable
+2021-11-10 21:10:44,985 - log[line:37] - ERROR: del file failed. reason:'int' object is not iterable
+2021-11-10 21:12:21,364 - root[line:37] - ERROR: del file failed. reason:'int' object is not iterable
+2021-11-10 21:12:34,910 - 1636549954.9106443[line:37] - ERROR: del file failed. reason:'int' object is not iterable
+2021-11-10 21:12:49,788 - 788.5022163391113[line:37] - ERROR: del file failed. reason:'int' object is not iterable
+2021-11-10 21:13:03,121 - del file failed. reason:'int' object is not iterable[line:37] - ERROR: del file failed. reason:'int' object is not iterable
+2021-11-10 21:13:17,239 - ERROR[line:37] - ERROR: del file failed. reason:'int' object is not iterable
+2021-11-10 21:13:31,882 - log[line:37] - ERROR: del file failed. reason:'int' object is not iterable
+2021-11-10 21:20:12,544 - log[line:31] - INFO: xxx
+2021-11-10 21:20:40,564 - log[line:31] - INFO: yyy
+2021-11-10 21:21:21,104 - INFO[line:31] - INFO: yyy
+2021-11-10 21:30:05,191 - test[line:151] - INFO: yyy
+2021-11-10 21:31:10,694 - run- test[line:151] - INFO: yyy
+2021-11-10 21:32:06,931 - moduleName:run - test[line:151] - INFO: yyy
+2021-11-10 21:33:02,258 - moduleName:run - functionName:test[line:151] - INFO: yyy
+2021-11-10 21:33:19,315 - moduleName:run - funcName:test[line:151] - INFO: yyy
