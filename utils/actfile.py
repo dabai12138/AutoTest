@@ -6,20 +6,23 @@ import csv
 import xlrd
 import xlwt
 import sys,os
+base_path = os.path.abspath(os.path.split(os.path.dirname(__file__))[0])
+sys.path.append(base_path)
 import yaml
 import pandas as pd
 import numpy as np
 import datetime,time
+from utils.log import Logger
+PATH = lambda *p:os.path.abspath(os.path.join(base_path,*p))
+from tools.Tools import PATH
 
-
-basepath = os.path.split(os.path.dirname(os.path.abspath(__file__)))[0]
-yaml_path = os.path.join(basepath,'conf','test_search.yaml')
+yaml_path = PATH('conf','test_search.yaml')
 
 class readExcel(object):
     '''read excel file'''
     def __init__(self,file):
         self.filename = file
-        self.file = os.path.join(basepath, r'data\filedata\data_excel\%s' % self.filename)
+        self.file = PATH("data","file",f"{self.filename}")
         self.data = xlrd.open_workbook(self.file)
 
     #get all row data
@@ -64,7 +67,7 @@ class writeExcel(object):
     '''write excel file'''
     def __init__(self,filename):
         self.filename = filename
-        self.file = os.path.join(basepath, r'data\file\data_excel\%s' % self.filename)
+        self.file = PATH("data","file",f"{self.filename}")
         self.wb = xlwt.Workbook(encoding='ascii')
 
     def _create_sheet(self,name):
@@ -104,7 +107,7 @@ class actCsv(object):
         pass
 
     def read_csv(self,filename):
-        file = os.path.join(basepath, 'file\data_csv\%s' % filename)
+        file = PATH("data","file",f"{filename}")
         with open(file,'r') as fp:
             data = csv.reader(fp)
         return data

@@ -6,7 +6,7 @@ from tools.HTMLTestRunner import HTMLTestRunner
 from utils import *
 from utils.smtp import Smtp
 from utils.actfile import readExcel,get_yaml_data
-from utils.log import delfile
+from utils.log import Logger,delLog
 import unittest
 import sys,os
 import time
@@ -14,12 +14,13 @@ import time
 base_path = PATH("..")
 conf_path = PATH("..\conf\keywords.json")
 report_path = PATH("..\\report")
-email_yaml_path = PATH("..\conf\send_email.yaml")
+email_yaml_path = PATH("..\conf\email.yaml")
 
 class RunCase(object):
 
     def __init__(self,caseDir=r'testcase\UI_Case'):
         self.caseDir = caseDir
+        self.loger = Logger()
         self.case_path = os.path.join(base_path, self.caseDir)
 
     def _add_case(self,rule):
@@ -127,9 +128,8 @@ class RunCase(object):
         self.run_case(u'TEST',rule)
         logpath = os.path.join(base_path,'logs')
         screenshotpath = os.path.join(base_path,'screenshot')
-        df = delfile()
-        df(logpath,10)
-        df(screenshotpath,50)
+        delLog(logpath,self.loger)
+        delLog(screenshotpath,self.loger)
 
     def send_email(self):
         yaml_data = get_yaml_data(email_yaml_path)
@@ -154,4 +154,5 @@ if __name__ == '__main__':
     rc.run_case("测试百度","test_*.py")
     #thread_run(rules,rc.run)
     #rc.send_email()
+
 

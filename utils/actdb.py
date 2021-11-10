@@ -10,13 +10,27 @@ import os,sys
 class ActMysql(object):
     '''action mysql'''
     def __init__(self,host,user,passwd,db):
-        self.conn = pymysql.connect(host=host,user=user,password=passwd,database=db)
+        try:
+            self.conn = pymysql.connect(host=host,user=user,password=passwd,database=db)
+        except Exception as e:
+            print(e)
         self.cursor = self.conn.cursor()
 
     def exec_sql(self,sql):
-        self.cursor.execute(sql)
-        fetchall = self.cursor.fetchall()
+        fetchall = None
+        i = 0
+        while i<3:
+            try:
+                self.cursor.execute(sql)
+                fetchall = self.cursor.fetchall()
+                break
+            except Exception as e:
+                print(f"select data failed! reason:{e}")
+                i+=1
         return fetchall
+
+    def insertData(self,sql):
+        pass
 
     def __del__(self):
         self.cursor.close()

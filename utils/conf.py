@@ -6,7 +6,10 @@ import yaml
 import pymysql
 import sys
 import os
-path = os.path.join(os.path.split(os.getcwd())[0],'conf\keyword.ini')
+
+base_path = os.path.abspath(os.path.split(os.path.dirname(__file__))[0])
+sys.path.append(base_path)
+PATH = lambda *p:os.path.abspath(os.path.join(base_path,*p))
 
 
 class readConf(object):
@@ -21,6 +24,4 @@ class readConf(object):
         return self.config.items(section)
 
 if __name__ == "__main__":
-    rc = readConf(path)
-    rr = rc.get_items('Stttt')
-    print(type(rr[0][1]),type(eval(rr[0][1])))
+    pass
