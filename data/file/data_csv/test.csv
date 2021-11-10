@@ -1,0 +1,6 @@
+编号,步骤,操作类型,参数
+用例01,step01,click,{xpath:xxxx}
+用例01,step02,click,{xpath:xxxx}
+
+用例02,step01,click,{xpath:xxxx}
+用例02,step02,click,{xpath:xxxx}

@@ -1,0 +1,106 @@
+- case01:
+    - act: click
+      type: xpath
+      val: //*[@id="root"]/section/header/div[1]/div[2]/ul/li[4]/a
+      info: 点击应用管理
+    - act: presenceEle
+      type: id
+      val: appName
+      info: 等待应用基本信息页显示
+    - act: click
+      type: xpath
+      val: //*[@id="root"]/section/section/main/div/div/div/div[2]/div[1]/div[2]/button/a
+      info: 点击创建应用
+    - act: presenceEle
+      type: id
+      val: agreement
+      info: 等待勾选框
+    - act: click
+      type: id
+      val: agreement
+      info: 勾选阅读并同意
+    - act: click
+      type: xpath  
+      val: //*[@id="root"]/section/section/main/div/div[3]/div[2]/button[1]
+      info: 点击下一步
+    - act: input
+      type: id
+      val: name
+      msg: xxx
+      info: 输入应用名称
+    - act: click
+      type: xpath
+      val: //*[@id="type"]/div/span/i/svg
+      info: 点开应用业务下拉框
+    - act: click
+      type: xpath
+      val: //*[@id="c703cfec-f921-4b2f-ce14-4e51cf57c3ee"]/ul/li[1]
+      info: 选中应用业务类型
+    - act: click
+      type: xpath
+      val: //*[@id="root"]/section/section/main/div/div[3]/div/div/form/div[1]/div/div[4]/div/div[2]/div/span/div/span/span/span[2]/i/svg
+      info: 点开应用部门下拉框
+    - act: click
+      type: xpath
+      val: //*[@id="rc-tree-select-list_2"]/ul/li/span[2]/span
+      info: 选中应用部门
+    - act: input
+      type: id
+      val: remark
+      msg: xxx
+      info: 输入应用描述
+    - act: input
+      type: id
+      val: mantainer
+      msg: xxx
+      info: 输入工程师姓名
+    - act: input
+      type: id
+      val: mantainerOrg
+      msg: xxx
+      info: 输入工程师单位
+    - act: input
+      type: id
+      val: mantainerPhone
+      msg: xxx
+      info: 输入工程师电话
+    - act: click
+      type: xpath
+      val: //*[@id="root"]/section/section/main/div/div[3]/div/div/form/div[2]/div/div[4]/div/div[2]/div/span/div/div/div/span/i/svg
+      info: 点开负责民警下拉框
+    - act: click
+      type: xpath
+      val: /html/body/div[3]/div/div/div/div/div/div/div[1]/ul/li/span[2]/span
+      info: 选中负责民警
+    - act: input
+      type: id
+      val: directDutyUser
+      msg: xxx
+      info: 输入工程师身份证
+    - act: input 
+      type: id
+      val: dutyPolicePhone
+      msg: xxx
+      info: 输入民警电话
+    
+- case02:
+    - act: click
+      type: xpath
+      val: //*[@id="root"]/section/header/div[1]/div[2]/ul/li[4]/a
+    - act: presenceEle
+      type: id
+      val: appName
+    - act: input
+      type: id
+      val: appName
+      msg: xxx
+    - act: click
+      type: xpath  
+      val: //*[@id="root"]/section/section/main/div/div/div/div[1]/form/div/div[5]/div/button[2]
+    - act: getText
+      type: xpath 
+      val: //*[@id="root"]/section/section/main/div/div/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[1]/td[1]
+
+     
+
+    

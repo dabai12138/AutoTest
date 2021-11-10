@@ -1,0 +1,17 @@
+url:
+  new_url: "http://news.baidu.com/"
+
+search1:
+  search_id: "ww"
+  search_msg: "热门"
+  click_id: "s_btn_wr"
+
+search2:
+  search_id: "ww"
+  search_msg: "冷门"
+  click_id: "s_btn_wr"
+
+search3:
+  search_id: "ww"
+  search_msg: "火门"
+  click_id: "s_btn_wr"

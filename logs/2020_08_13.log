@@ -1,0 +1,840 @@
+2020-08-13 12:42:05,774 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:42:20,365 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+
+
+2020-08-13 12:42:20,365 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+
+
+2020-08-13 12:42:20,367 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+
+
+2020-08-13 12:42:20,367 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+
+
+2020-08-13 12:42:20,367 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
+    return _find_element(driver, self.locator)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+
+
+2020-08-13 12:53:47,515 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 12:54:17,837 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:54:17,837 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:54:17,837 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 12:54:17,837 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 12:54:17,837 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 12:54:48,394 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:54:48,394 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:54:48,394 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:54:48,394 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:55:18,977 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:55:18,977 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:55:18,977 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:55:18,977 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:55:18,977 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:57:31,187 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 12:58:48,697 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 12:59:18,966 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:59:18,966 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:59:18,967 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 12:59:18,967 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 12:59:18,967 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 12:59:49,499 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:59:49,499 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:59:49,499 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 12:59:49,499 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:00:20,057 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:00:20,057 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:00:20,057 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:00:20,057 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:00:20,057 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:03:01,466 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 13:03:31,812 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:03:31,812 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:03:31,813 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:03:31,813 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:03:31,813 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:04:02,336 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:04:02,336 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:04:02,336 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:04:02,336 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:05:27,410 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 13:07:06,394 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 13:07:37,351 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:07:37,351 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:07:37,351 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:07:37,351 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:07:37,351 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:52:03,687 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 13:52:45,344 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 13:53:15,594 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:53:15,594 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:53:15,595 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:53:15,595 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:53:15,595 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:53:46,144 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:53:46,144 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:53:46,144 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:53:46,144 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:54:06,851 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 13:54:37,049 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:54:37,049 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:54:37,050 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:54:37,050 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:54:37,050 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 13:55:07,598 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:55:07,598 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:55:07,598 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:55:07,598 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 13:58:53,003 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 14:03:04,876 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 14:03:35,037 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:03:35,037 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:03:35,037 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 14:03:35,037 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 14:03:35,037 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 14:04:58,534 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 14:09:18,885 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 14:09:49,145 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:09:49,145 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:09:49,145 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 14:09:49,145 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 14:09:49,145 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 14:10:19,707 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 156, in preEleXP
+    return self.web_wait().until(EC.presence_of_element_located((By.XPATH,val)))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:10:19,707 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 156, in preEleXP
+    return self.web_wait().until(EC.presence_of_element_located((By.XPATH,val)))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:10:19,707 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 156, in preEleXP
+    return self.web_wait().until(EC.presence_of_element_located((By.XPATH,val)))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:10:19,707 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 156, in preEleXP
+    return self.web_wait().until(EC.presence_of_element_located((By.XPATH,val)))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:26:19,621 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+TypeError: switchWindow() takes 1 positional argument but 3 were given
+
+2020-08-13 14:26:49,680 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:26:49,680 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 121, in titleIs
+    return self.web_wait().until(EC.title_is(msg))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:26:49,680 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 14:26:49,680 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 14:26:49,680 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login failed.
+2020-08-13 14:27:20,190 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 156, in preEleXP
+    return self.web_wait().until(EC.presence_of_element_located((By.XPATH,val)))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:27:20,190 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 156, in preEleXP
+    return self.web_wait().until(EC.presence_of_element_located((By.XPATH,val)))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:27:20,190 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 156, in preEleXP
+    return self.web_wait().until(EC.presence_of_element_located((By.XPATH,val)))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:27:20,190 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 156, in preEleXP
+    return self.web_wait().until(EC.presence_of_element_located((By.XPATH,val)))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:27:50,705 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:27:50,705 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:27:50,705 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:27:50,705 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:27:50,705 - ERROR[line:36] - ERROR: Traceback (most recent call last):
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\decorator.py", line 14, in wapper
+    res = func(*args)
+  File "C:\Users\huyan\Desktop\BkzxAutoTest\common\actpage.py", line 149, in presenceEle
+    return self.web_wait().until(EC.presence_of_element_located(args))
+  File "C:\Users\huyan\AppData\Local\Programs\Python\Python37-32\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2020-08-13 14:30:21,805 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login successful.
+2020-08-13 14:31:00,407 - INFO[line:30] - INFO: C:\pycharm\PyCharm Community Edition 2018.3.7\helpers\pycharm\_jb_unittest_runner.py:login successful.
+2020-08-13 14:31:39,476 - INFO[line:30] - INFO: C:/Users/huyan/Desktop/BkzxAutoTest/run_all_test.py:login successful.
